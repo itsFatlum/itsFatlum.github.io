@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <body bgcolor="#000000">
-    <p style="color: #898989; font-size: xx-large;">Welcome to my about me! 👋</p>
-    <p style="color: #898989; font-size: xx-large">I'm Fatlum aka itsFatlum and live in Germany.</p>
-    <il>hey</il>
-    
-    
-    <script src="js/header-1.js"></script>
-  </body>
+<head>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #555555;
+        }
+
+        h1, h2, li {
+            text-align: center;
+        }
+
+        .image-container {
+            display: flex; /* Create a flex container */
+        }
+
+        .image-container img {
+            flex: 1; /* Equal width for all images */
+            margin-right: 10px; /* Optional: Add some spacing between images */
+        }
+    </style>
+</head>
+<body>
+    <h1>itsFatlum's About Me</h1>
+    <h2>Welcome! 👋 You can find here:</h2>
+    <li>General information about me.</li>
+    <li>Apps/websites I use and recommend.</li>
+    <li>Games I own and play.</li>
+    <h2>To which page do you wanna go? 🤔</h2>
+    <div class="image-container">
+        <a href="https://itsfatlum.github.io/about">
+            <img src="media/About_Me.png" alt="About Me" width="240">
+        </a>
+        <a href="https://itsfatlum.github.io/usage">
+            <img src="media/Usage.png" alt="Usage" width="200">
+        </a>
+        <a href="https://itsfatlum.github.io/gaming">
+            <img src="media/Gaming.png" alt="Gaming" width="240">
+        </a>
+    </div>
+</body>
 </html>
