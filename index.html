@@ -1,48 +1,159 @@
+<!--
+-----------------
+https://github.com/ardacarofficial/links-website is open source project.
+-----------------
+-->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            margin: 0;
-            background-color: #555555;
-        }
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Description - Your Title</title>
+    <meta name="description" content="Your Description">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&amp;display=swap">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
 
-        h1, h2, li {
-            text-align: center;
-        }
+    <header>
+    <!-- Logo, Title and Description Codes Start -->
+      <div class="header_img flex_column_center">
+        <img src="profile.png" alt="Profile" />
+      </div>
+      <div class="header_text flex_column_center">
+        <h1 class="header_h_item">itsFatlum's Page</h1>
+        <h2 class="header_h_item">You can find here every social media, game I play and softwares I recommend.</h2>
+      </div>
+    <!-- Logo, Title and Description Codes End -->  
 
-        .image-container {
-            display: flex; /* Create a flex container */
-        }
+    <!-- Menu Codes Start -->
+      <nav>
+        <ul class="header_nav_menu_list flex_no_wrap_row_center">
+          <li data-target="#main_section_container_1" id="header_nav_menu_item_1" class="header_nav_menu_item" href="">About Me</li>
+          <li data-target="#main_section_container_2" id="header_nav_menu_item_2" class="header_nav_menu_item" href="">Gaming</li>
+          <li data-target="#main_section_container_3" id="header_nav_menu_item_3" class="header_nav_menu_item" href="">Software</li>
+        </ul>
+      </nav>
+    <!-- Menu Codes End -->
 
-        .image-container img {
-            flex: 1; /* Equal width for all images */
-            margin-right: 10px; /* Optional: Add some spacing between images */
-        }
-    </style>
-</head>
-<body>
-    <h1>itsFatlum's About Me</h1>
-    <h2>Welcome! 👋 You can find here:</h2>
-    <li>General information about me.</li>
-    <li>Apps/websites I use and recommend.</li>
-    <li>Games I own and play.</li>
-    <h2>To which page do you wanna go? 🤔</h2>
-    <div class="image-container">
-        <a href="https://itsfatlum.github.io/about">
-            <img src="media/About_Me.png" alt="About Me" width="240">
+    </header>
+    <main>
+      <!-- Menu Container 1 Codes Start -->
+      <section id="main_section_container_1" class="flex_column_center">
+        <!-- Menu Text Item -->
+        <div class="main_text_item">
+          <p>Hey! My name is Fatlum and I live in Germany. Ive always loved gaming and wanted to do social media as a hobby as well as coding. I know HTML and a bit of Java.</p>
+        </div>
+        <!-- Menu Small Item -->
+        <div class="main_small_button_list">
+          <a class="main_small_a_item" href="https://instagram.com/itsfatlumyt" target="_blank" rel="nofollow">
+            <button class="main_small_button_item">Instagram</button>
+          </a>
+          <a class="main_small_a_item" href="https://twitter.com/itsfatlum" target="_blank" rel="nofollow">
+            <button class="main_small_button_item">Twitter</button>
+          </a>
+        </div>
+        <!-- Menu Small Item -->
+        <div class="main_small_button_list">
+          <a class="main_small_a_item" href="https://twitch.tv/itsfatlum" target="_blank" rel="nofollow">
+            <button class="main_small_button_item">Twitch</button>
+          </a>
+          <a class="main_small_a_item" href="https://tiktok.com/@its.fatlum" target="_blank" rel="nofollow">
+            <button class="main_small_button_item">TikTok</button>
+          </a>
+        </div>
+        <!-- Menu Item -->
+        <a class="main_a_item" href="https://discord.gg/yp27VHgNzY" target="_blank" rel="nofollow">
+          <button class="main_button_item">Discord Server</button>
         </a>
-        <a href="https://itsfatlum.github.io/usage">
-            <img src="media/Usage.png" alt="Usage" width="200">
+        <!-- Menu Item -->
+        <a class="main_a_item" href="https://youtube.com/@itsfatlum" target="_blank" rel="nofollow">
+          <button class="main_button_item">YouTube Channel</button>
         </a>
-        <a href="https://itsfatlum.github.io/gaming">
-            <img src="media/Gaming.png" alt="Gaming" width="240">
+      </section>
+      <!-- Menu Container 1 Codes End -->
+
+      <!-- Menu Container 2 Codes Start -->
+      <section id="main_section_container_2" class="flex_column_center">
+        <!-- Menu Text Item -->
+        <div class="main_text_item">
+          <p>Ive been gaming since I was little and started with Roblox.</p>
+        </div>
+        <!-- Menu Small Item -->
+        <div class="main_small_button_list">
+          <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+            <button class="main_small_button_item">Among Us</button>
+          </a>
+          <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+            <button class="main_small_button_item">Supercell</button>
+          </a>
+        </div>
+        <!-- Menu Small Item -->
+        <div class="main_small_button_list">
+          <a class="main_small_a_item" href="https://store.epicgames.com/u/758214ab94c74674a5b2bc7378daac96" target="_blank" rel="nofollow">
+            <button class="main_small_button_item">Epic Games</button>
+          </a>
+          <a class="main_small_a_item" href="https://account.xbox.com/en-us/profile?gamertag=fatlumspielt" target="_blank" rel="nofollow">
+            <button class="main_small_button_item">Xbox</button>
+          </a>
+        </div>
+        <!-- Menu Item -->
+        <a class="main_a_item" href="https://www.roblox.com/users/5065467693/profile" target="_blank" rel="nofollow">
+          <button class="main_button_item">Roblox Profile (Follow me to see my inventory.)</button>
         </a>
-    </div>
-</body>
+        <!-- Menu Item -->
+        <a class="main_a_item" href="https://steamcommunity.com/id/itsFatlum/" target="_blank" rel="nofollow">
+          <button class="main_button_item">Steam Profile</button>
+        </a>
+      </section>
+      <!-- Menu Container 2 Codes End -->
+
+      <!-- Menu Container 3 Codes Start -->
+      <section id="main_section_container_3" class="flex_column_center">
+        <!-- Menu Text Item -->
+        <div class="main_text_item">
+          <p>Menu 3 text Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi molestiae nesciunt, exercitationem quaerat maxime non!</p>
+        </div>
+        <!-- Menu Small Item -->
+        <div class="main_small_button_list">
+          <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+            <button class="main_small_button_item">Menu 3 Small Item</button>
+          </a>
+          <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+            <button class="main_small_button_item">Menu 3 Small Item</button>
+          </a>
+        </div>
+        <!-- Menu Small Item -->
+        <div class="main_small_button_list">
+          <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+            <button class="main_small_button_item">Menu 3 Small Item</button>
+          </a>
+          <a class="main_small_a_item" href="#link" target="_blank" rel="nofollow">
+            <button class="main_small_button_item">Menu 3 Small Item</button>
+          </a>
+        </div>
+        <!-- Menu Item -->
+        <a class="main_a_item" href="#link" target="_blank" rel="nofollow">
+          <button class="main_button_item">Menu 3 Item</button>
+        </a>
+        <!-- Menu Item -->
+        <a class="main_a_item" href="#link" target="_blank" rel="nofollow">
+          <button class="main_button_item">Menu 3 Item</button>
+        </a>
+      </section>
+      <!-- Menu Container 3 Codes End -->
+    </main>
+    <footer>
+      <!-- Footer Codes Start -->
+      <div class="footer_div_item flex_row_center">
+        <a class="footer_a_item" href="https://github.com/ardacarofficial/links-website/tree/main">Template from ardacarofficial
+        </a>&nbsp;
+      </div>
+    </footer>
+      <!-- Footer Codes End -->
+    <script src="main.js"></script>
+  </body>
 </html>
